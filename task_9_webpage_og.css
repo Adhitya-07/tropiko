@@ -1,0 +1,476 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+} 
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.bgcolor{
+    background-color: whitesmoke;
+}
+
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.logo img{
+    height: 45px;
+    width: 45px;
+
+}
+
+.title{
+    margin-right: 260px;
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.navi{
+    margin-left: 100px;
+}
+
+.navi ul li{
+    display: inline;
+    padding-right: 50px;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.search{
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.button button{
+    margin-right: -80px;
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    padding: 5px 10px 5px 10px;
+}
+
+.left{
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.left h1{
+    font-size: 70px;
+}
+
+.left p{
+    margin-top: -10px;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.button1{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+} 
+
+.button2{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 15px;
+}
+
+.button1:hover{
+    background-color: whitesmoke;
+    color: orangered;
+}
+
+.button2:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.right{
+    width: 40%;
+}
+
+.img1 img{
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    height: 350px;
+} 
+
+.one{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.orange{
+    background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 30px 30px;
+}
+
+.orange h2{
+    color: orangered;
+}
+
+.orange p{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.orange img{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
+
+.orange:hover{
+    border-top: 8px solid orangered ;
+}
+
+.grapes{
+    background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 30px 30px;
+}
+
+.grapes h2{
+    color: orangered;
+}
+
+.grapes p{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.grapes img{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
+
+.grapes:hover{
+    border-top: 8px solid orangered ;
+}
+
+.gauva{
+    background-color: white;
+    border: 1px solid rgb(212, 210, 210);
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: -90px;
+    padding: 30px 30px;
+}
+
+.gauva h2{
+    color: orangered;
+}
+
+.gauva p{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.gauva img{
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
+
+.gauva:hover{
+    border-top: 8px solid orangered ;
+}
+
+.button3{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 12px 40px;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 530px;
+}
+
+.button3:hover{
+    background-color: white;
+    color: black;
+}
+
+.fresh{
+    text-align: center;
+    margin-top: 80px;
+    line-height: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.f1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.button4{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 12px 40px;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.button4:hover{
+    background-color: white;
+    color: black;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f2{
+    margin-right: 80px;
+}
+
+.f2 img{
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+}
+
+.f3{
+    margin-right: 150px;
+}
+
+.f3 img{
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    width: 100px;
+}
+
+.f4{
+    margin-right: 80px;
+}
+
+.f4 img{
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 230px;
+}
+
+.container5{
+    width: 80%;
+}
+
+.bgimg1{
+    background-image: url(bgimg2.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.two{
+    text-align: center;
+    color: white;
+    font-size:50px;
+    padding-top: 130px;
+    margin-right: -200px;
+}
+
+.main1{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 20PX;
+}
+
+.imggp{
+    background-image: url(imggp.png);
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    width: 370px;
+    margin: 100px 400px 0px 400px;
+}
+
+.main2{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-right: -30px;
+}
+
+.main3{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.main3:hover{
+    color: orangered;
+}
+
+.contact{
+    width: 60%;
+    margin: 30px;
+}
+
+.name{
+    padding: 20px 400px 10px 0px;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 1px black solid;
+}
+
+.phone{
+    padding: 20px 400px 10px 0px;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 1px black solid;
+}
+
+.email{
+    padding: 20px 400px 10px 0px;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 1px black solid;
+}
+
+.message{
+    padding: 20px 400px 10px 0px;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 30px;
+    border-bottom: 1px black solid;
+}
+
+.button5{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    padding: 12px 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 12px;
+
+}
+
+.button5:hover{
+    background-color: white;
+    color: orangered;
+}
+
+.plate img{
+    height: 450px;
+}
+
+.bgimg2 iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.container6{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: -90px;
+    font-size: 20px;
+}
+
+.container6 p{
+    margin-top: -10px;
+}
+
+.follow img{
+    width: 35px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+
+}
+
+.follow p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.enter{
+    padding-right: 40px;
+    padding: 5px 40px 5px 10px;
+}
+
+.subscribe{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    padding: 5px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-top: 80px;
+} 
+
+
