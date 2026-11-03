@@ -1,3 +1,7 @@
+img{
+    max-width: 100%;
+}
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -473,4 +477,119 @@
     margin-top: 80px;
 } 
 
+@media (max-width: 768px){
+
+    *{ box-sizing: border-box; }
+    body{ margin: 0; }
+    p br{ display: none; }          
+
+    /*HEADER + HERO (both use .container)*/
+    .container{
+        flex-direction: column;     /* row -> column */
+        width: 100%;
+    }
+    .heading1, .heading2{
+        width: 100%;
+    }
+    .heading1{
+        justify-content: center;
+        gap: 15px;
+    }
+    .logo, .title{ margin: 0; }
+    .heading2{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navi{ margin: 0; }
+    .navi ul{ padding: 0; text-align: center; }
+    .navi ul li{ padding: 0 10px; }
+    .search{ margin: 0; }
+    .button button{ margin: 0; }
+
+    .left{
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .left h1{ font-size: 36px; }
+    .left p{ font-size: 16px; margin-top: 0; }
+    .button1, .button2{ margin: 10px 5px; }
+
+    .right{ width: 100%; text-align: center; }
+    .img1 img{ margin-top: 30px; height: auto; width: 80%; }
+
+    /*SERVICES CARDS*/
+    .one{ margin: 30px 0 0 0; padding: 0 20px; }
+    .container1{ width: 100%; }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+    }
+    .orange, .grapes, .gauva{
+        width: 100%;
+        margin: 0;
+    }
+
+    .orange img, .grapes img, .gauva img{
+        height: auto;
+        width: 80px;
+    }
+
+    .button3{
+        display: block;
+        margin: 30px auto;
+    }
+
+    /*FRESH FRUITS ROWS*/
+    .fresh{ margin-top: 40px; padding: 0 20px; }
+    .container3{
+        flex-direction: column;
+        text-align: center;
+    }
+    .f1{ margin: 20px; font-size: 16px; }
+    .f2, .f3, .f4{ margin: 0; }
+    .f2 img, .f3 img, .f4 img{
+        width: auto;
+        height: 150px;
+        max-width: 100%;
+    }
+
+    /*BANNER*/
+    .bgimg1{ height: 300px; }
+    .container5{ width: 100%; }
+    .two{
+        margin-right: 0;
+        padding-top: 110px;
+        font-size: 28px;
+    }
+
+    /*TESTIMONIAL*/
+    .main1, .main2{ padding: 0 20px; margin-right: 0; }
+    .imggp{
+        width: 80%;
+        margin: 40px auto 0 auto;
+    }
+
+    /*CONTACT FORM */
+    .contact{ width: 100%; margin: 0; padding: 20px; }
+    .name, .phone, .email, .message{
+        width: 100%;
+        padding: 15px 0 10px 0;
+    }
+    .plate img{ height: auto; width: 80%; }
+
+    /*MAP + FOOTER*/
+    .container6{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .container6 p{ margin-top: 0; }
+    .fruits, .service, .list, .follow{ margin-bottom: 20px; }
+    .copyright{ margin-top: 20px; font-size: 14px; }
+}
 
